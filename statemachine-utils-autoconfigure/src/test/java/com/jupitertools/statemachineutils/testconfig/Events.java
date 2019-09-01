@@ -1,7 +1,7 @@
 package com.jupitertools.statemachineutils.testconfig;
 
 /**
- * Created on 05.05.2018.
+ * Event of the test statemachine
  *
  * @author Korovin Anatoliy
  */

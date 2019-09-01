@@ -15,7 +15,7 @@ import org.springframework.statemachine.config.builders.StateMachineTransitionCo
 import org.springframework.statemachine.guard.Guard;
 
 /**
- * Created on 05.05.2018.
+ * Statemachine configuration file to use in tests.
  *
  * @author Korovin Anatoliy
  */
@@ -102,7 +102,7 @@ public class StateMachineConfig extends EnumStateMachineConfigurerAdapter<States
 
 	private Action<States, Events> deployPreProd() {
 		return stateContext -> {
-			log.warn("DEPLOY: Выкатываемся на препродакшен.");
+			log.warn("DEPLOYING...");
 			stateContext.getExtendedState().getVariables().put("deployed", true);
 		};
 	}

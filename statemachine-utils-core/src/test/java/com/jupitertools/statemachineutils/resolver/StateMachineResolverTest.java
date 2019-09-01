@@ -18,6 +18,9 @@ import org.springframework.statemachine.config.StateMachineFactory;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * @author Anatoliy Korovin
+ */
 @SpringBootTest
 @Import(StateMachineConfig.class)
 class StateMachineResolverTest {

@@ -12,6 +12,21 @@
 
     <artifactId>statemachine-utils-autoconfigure</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>statemachine-utils-autoconfigure</name>
+    <description>AutoConfiguration files for StateMachineUtils project</description>
+
+    <developers>
+        <developer>
+            <id>antkorwin</id>
+            <name>Anatoliy Korovin</name>
+            <email>antkorwin@gmail.com</email>
+            <url>antkorwin.com</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
@@ -19,7 +34,6 @@
             <artifactId>spring-boot</artifactId>
             <version>${spring-boot.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>

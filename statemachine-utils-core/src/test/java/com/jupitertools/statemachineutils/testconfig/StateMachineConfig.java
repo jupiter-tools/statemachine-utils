@@ -17,7 +17,7 @@ import org.springframework.statemachine.guard.Guard;
 /**
  * Created on 05.05.2018.
  *
- * @author Korovin Anatoliy
+ * @author Anatoliy Korovin
  */
 @Configuration
 @EnableStateMachineFactory

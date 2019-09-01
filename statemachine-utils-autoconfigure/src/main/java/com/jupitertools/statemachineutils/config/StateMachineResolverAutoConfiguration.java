@@ -9,6 +9,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
+/**
+ * This is a spring AutoConfiguration file which adds
+ * a {@link StateMachineResolver} in the application
+ * context if this requires.
+ *
+ * @author Anatoliy Korovin
+ */
 @Configuration
 @ConditionalOnMissingBean(StateMachineResolver.class)
 public class StateMachineResolverAutoConfiguration {

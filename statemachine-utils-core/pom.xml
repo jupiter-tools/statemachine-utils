@@ -12,6 +12,21 @@
 
     <artifactId>statemachine-utils-core</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>statemachine-utils-core</name>
+    <description>The main code of the StateMachineUtils library</description>
+
+    <developers>
+        <developer>
+            <id>antkorwin</id>
+            <name>Anatoliy Korovin</name>
+            <email>antkorwin@gmail.com</email>
+            <url>antkorwin.com</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>

@@ -14,7 +14,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created on 02.06.2018.
  *
- * @author Korovin Anatoliy
+ * @author Anatoliy Korovin
  */
 public class StateMachineResolverImpl<StatesT, EventsT> implements StateMachineResolver<StatesT, EventsT> {
 
