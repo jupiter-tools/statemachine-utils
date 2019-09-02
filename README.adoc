@@ -65,7 +65,8 @@ void testResolverWithGuard() {
     // Act
     List<Events> availableEvents = resolver.getAvailableEvents(machine);
     // Asserts
-    assertThat(availableEvents).containsOnly(Events.DEPLOY); <1>
+    assertThat(availableEvents).containsOnly(Events.DEPLOY);
 }
 ----
-<1> we don't find the `FINISH_FEATURE` event because our statemachine didn't deploy to the testing environment.
+
+We don't find the `FINISH_FEATURE` event because our statemachine didn't deploy to the testing environment.
