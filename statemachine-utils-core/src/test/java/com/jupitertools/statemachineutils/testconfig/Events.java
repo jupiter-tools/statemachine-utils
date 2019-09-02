@@ -11,5 +11,6 @@ public enum Events {
     QA_REJECTED_UC,
     ROCK_STAR_DOUBLE_TASK,
     DEPLOY,
-    INCREMENT, QA_CHECKED_UC
+    INCREMENT,
+    QA_CHECKED_UC
 }
