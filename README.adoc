@@ -24,16 +24,7 @@ If you need to get a list of all available events from the current state then yo
 
 We can move a state machine from `IN_PROGRESS` to `TESTING` only if we already deployed our feature to the testing environment. This rule implements by the guard on the transition (`FINISH_FEATURE`). In this guard, we check the value of the variable `deployed` which will set to true in the DEPLOY transition.
 
-[plantuml]
-....
-[*] --> BACKLOG
-BACKLOG --> IN_PROGRESS : START_FEATURE
-IN_PROGRESS --> TESTING : FINISH_FEATURE \n { if deployed == true }
-
-BACKLOG --> BACKLOG : DEPLOY \n {deployed=true}
-
-IN_PROGRESS --> IN_PROGRESS : DEPLOY \n {deployed=true}
-....
+image:./docs/statemachine_1.png["state machine uml", width=400]
 
 The next code sample shows how to resolve available transitions from the `BACKLOG` state:
 
